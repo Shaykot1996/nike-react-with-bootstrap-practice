@@ -1,0 +1,86 @@
+/* Navbar and header section custom css   */
+h1 {
+	font-family: "Bebas Neue", cursive;
+	font-weight: 700;
+	font-size: 80px;
+}
+.text-danger {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #3e3e3e !important;
+}
+.button-btn-primary {
+	background-color: #3d4ff3;
+	border-radius: 10px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+.active {
+	color: #3c3c3c !important;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+}
+.header-background-bg-success {
+	background-color: #fff9f4;
+}
+/*--------------------------
+       Main section styles
+---------------------------- */
+.card-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #363958;
+}
+
+.price {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	color: #fa804c;
+	margin-top: 30px;
+}
+.card-text {
+	color: #3e3e3e;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+}
+.shoe-button {
+	padding: 10px 20px !important;
+}
+
+/*---------------------
+       Meadia Query
+--------------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+	.navbar-brand img {
+		width: 80% !important;
+	}
+	.header-container {
+		padding-left: 0%;
+	}
+	.header-h1 {
+		font-size: 60px;
+	}
+	.header-row {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.header-button {
+		margin-bottom: 50px;
+		padding: 10px 20px !important;
+	}
+	.casual-shoes {
+		font-size: 36px;
+		text-align: center;
+	}
+}
